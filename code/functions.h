@@ -35,6 +35,8 @@ void printMenu();
 
 void menu(Word *, size_t &);
 
+size_t getDictionary(Word *);
+
 void showDictionary(Word *, const size_t);
 
 void addRecord(Word *, size_t &);
@@ -47,6 +49,5 @@ void translateEnglishToRussian(Word *, const size_t);
 
 void translateRussianToEnglish(Word *, const size_t);
 
-size_t getDictionary(Word *);
 
 #endif //CODE_FUNCTIONS_H
